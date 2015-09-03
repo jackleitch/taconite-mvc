@@ -1,0 +1,56 @@
+﻿.sidebar-nav { padding: 9px 0; }
+
+.example-block {
+  width: 40px;
+  height: 40px;
+  margin: 10px 10px 0 0;
+  float: left;
+  background-color: #a0a0a0;
+  -moz-border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  border-radius: 3px 3px 3px 3px;
+}
+.example-block.red { background-color: #da4f49; }
+.example-block.blue { background-color:  #006dcc; }
+.example-block.green { background-color:  #5bb75b; }
+
+
+
+
+.docs-example {
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 4px 4px 4px;
+    margin: 15px 0;
+    padding: 39px 19px 14px;
+    position: relative;
+}
+.docs-example:after {
+    background-color: #F5F5F5;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    content: "Example";
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+}
+.docs-example + .prettyprint {
+    margin-top: -20px;
+    padding-top: 15px;
+}
+.docs-example > p:last-child {
+    margin-bottom: 0;
+}
+.docs-example .table, .bs-docs-example .progress, .bs-docs-example .well, .bs-docs-example .alert, .bs-docs-example .hero-unit, .bs-docs-example .pagination, .bs-docs-example .navbar, .bs-docs-example > .nav, .bs-docs-example blockquote {
+    margin-bottom: 5px;
+}
+.docs-example .pagination {
+    margin-top: 0;
+}
+.docs-separator {
+    margin: 40px 0 39px;
+}

@@ -1,0 +1,24 @@
+﻿<section id="insertBefore">
+  <h2>Insert Before</h2>
+    
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus ligula in massa faucibus ornare. 
+    Vestibulum euismod molestie vulputate. Nam justo nisi, sollicitudin vel mattis quis, rhoncus vel ligula. 
+    Donec vitae sapien id dolor vehicula tristique viverra vel tortor. Ut tempus sapien ut nisl ullamcorper 
+    ut ullamcorper justo luctus. Quisque viverra felis et mi aliquet hendrerit. Nullam eget felis tortor. 
+  </p>
+    
+  <div class="docs-example">
+    
+    @Ajax.ActionLink("Insert Before", "InsertBefore", "Demo", null, new { @class="btn btn-primary" })
+    <a class="btn demoResetButton">Reset</a>
+    
+    <div class="demoActionWrapper clearfix">
+      <div id="insertBeforeTarget">@Html.Partial("BlueBox")@Html.Partial("BlueBox")@Html.Partial("BlueBox")</div>
+    </div>
+
+  </div>
+  
+  <pre class="prettyprint linenums">@RenderPage("ExampleCode_InsertBefore.cshtml")</pre>
+
+</section>

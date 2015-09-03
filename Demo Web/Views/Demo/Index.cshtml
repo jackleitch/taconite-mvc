@@ -1,0 +1,118 @@
+﻿@{
+  var ajaxOptions = new AjaxOptions
+    {
+      HttpMethod = "GET",
+      InsertionMode = InsertionMode.Replace,
+      UpdateTargetId = "demoContainer"
+    };
+}
+
+<div class="page-header">
+  <h1>TaconiteMVC Usage</h1>
+</div>
+
+<div class="row">
+
+
+  <div class="span3">
+    <div class="well sidebar-nav">
+      <ul id="demo-nav" class="nav nav-list">
+
+        <li class="nav-header">DOM Manipulation</li>
+        <li><a href="#append">Append</a></li>
+        <li><a href="#insertAfter">Insert After</a></li>
+        <li><a href="#insertBefore">Insert Before</a></li>
+        <li><a href="#prepend">Prepend</a></li>
+        <li><a href="#remove">Remove</a></li>
+        <li><a href="#removeAttribute">Remove Attribute</a></li>
+        <li><a href="#replace">Replace</a></li>
+        <li><a href="#replaceContent">Replace Content</a></li>
+        <li><a href="#setAttribute">Set Attribute</a></li>
+        <li><a href="#wrap">Wrap</a></li>
+
+        <li class="nav-header">Effects</li>
+        <li><a href="#fadeIn">Fade In</a></li>
+        <li><a href="#fadeOut">Fade Out</a></li>
+        <li><a href="#hide">Hide</a></li>
+        <li><a href="#show">Show</a></li>
+        <li><a href="#slideUp">Slide Up</a></li>
+        <li><a href="#slideDown">Slide Down</a></li>
+        
+        <li class="nav-header">Style/CSS</li>
+        <li><a href="#addClass">Add Class</a></li>
+        <li><a href="#removeClass">Remove Class</a></li>
+        <li><a href="#setStyle">Set Style</a></li>
+        
+        <li class="nav-header">JavaScript</li>
+        <li><a href="#executeJavaScript">Execute JavaScript</a></li>
+        <li><a href="#executePlugin">Execute jQuery Plugin</a></li>
+        
+        <li class="nav-header">Miscellaneous</li>
+        <li><a href="#combiningCommands">Combining Commands</a></li>
+
+      </ul>
+    </div>   
+  </div>
+    
+  <div id="demoContainer" class="span9">
+    
+    @Html.Partial("_Append")
+    <hr class="docs-separator"/>
+
+    @Html.Partial("_InsertAfter")
+    <hr class="docs-separator"/>
+
+    @Html.Partial("_InsertBefore")
+    <hr class="docs-separator"/>
+    
+    @Html.Partial("_Prepend")
+    <hr class="docs-separator"/>
+
+    @Html.Partial("_Remove")
+    <hr class="docs-separator"/>
+
+    @Html.Partial("_RemoveAttribute")
+    <hr class="docs-separator"/>
+
+    @Html.Partial("_Replace")
+    <hr class="docs-separator"/>
+    
+    @Html.Partial("_ReplaceContent")
+    <hr class="docs-separator"/>
+    
+    @Html.Partial("_SetAttribute")
+    <hr class="docs-separator"/>
+
+    @Html.Partial("_FadeIn")
+    <hr class="docs-separator"/>
+
+    @Html.Partial("_FadeOut")
+    <hr class="docs-separator"/>
+    
+    @Html.Partial("_Hide")
+    <hr class="docs-separator"/>
+
+    @Html.Partial("_Show")
+    <hr class="docs-separator"/>
+    
+    @Html.Partial("_SlideUp")
+    <hr class="docs-separator"/>
+
+    @Html.Partial("_SlideDown")
+    <hr class="docs-separator"/>
+
+    @Html.Partial("_AddClass")
+    <hr class="docs-separator"/>
+
+    @Html.Partial("_RemoveClass")
+    <hr class="docs-separator"/>
+
+    @Html.Partial("_ExecuteJavaScript")
+    <hr class="docs-separator"/>
+
+    @Html.Partial("_ExecutePlugin")
+    <hr class="docs-separator"/>
+
+  </div>
+
+</div>

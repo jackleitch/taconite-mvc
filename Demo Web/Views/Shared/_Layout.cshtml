@@ -1,0 +1,20 @@
+﻿<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>TaconiteMVC Demo</title>
+    @Styles.Render("~/Content/CSS/styles")
+  </head>
+
+  <body data-spy="scroll" data-target=".sidebar-nav">
+  
+    <div class="container">
+      @RenderBody()
+    </div>
+
+    @Scripts.Render("~/Scripts/complete")
+    @RenderSection("scripts", required: false)
+  
+  </body>
+
+</html>
