@@ -9,13 +9,13 @@ namespace TaconiteMvc
   /// </summary>
   public static class Taconite
   {
-
+    /// 
     public static TaconiteMvc.Syntax.IAddClassToTargetSyntax AddClass(string className)
     {
       return (new TaconiteResult()).AddClass(className);
     }
 
-
+    /// 
     public static TaconiteMvc.Syntax.IAddClassToTargetSyntax AddClasses(params string[] classNames)
     {
       return (new TaconiteResult()).AddClasses(classNames);
@@ -97,55 +97,55 @@ namespace TaconiteMvc
       return (new TaconiteResult()).ExecutePlugin(command);
     }
 
-
+    /// 
     public static TaconiteMvc.TaconiteResult FadeIn(string selector)
     {
       return (new TaconiteResult()).FadeIn(selector);
     }
 
-
+    /// 
     public static TaconiteMvc.TaconiteResult FadeOut(string selector)
     {
       return (new TaconiteResult()).FadeOut(selector);
     }
 
-
+    /// 
     public static TaconiteMvc.TaconiteResult Hide(string selector)
     {
       return (new TaconiteResult()).Hide(selector);
     }
 
-
+    /// 
     public static TaconiteMvc.Syntax.IInsertCommandBeforeOrAfterTargetSyntax InsertContent(System.Web.Mvc.PartialViewResult partialViewResult)
     {
       return (new TaconiteResult()).InsertContent(partialViewResult);
     }
 
-
+    /// 
     public static TaconiteMvc.Syntax.IInsertCommandBeforeOrAfterTargetSyntax InsertContent(string html)
     {
       return (new TaconiteResult()).InsertContent(html);
     }
 
-
+    /// 
     public static TaconiteMvc.Syntax.IInsertCommandBeforeOrAfterTargetSyntax InsertPartialView()
     {
       return (new TaconiteResult()).InsertPartialView();
     }
 
-
+    /// 
     public static TaconiteMvc.Syntax.IInsertCommandBeforeOrAfterTargetSyntax InsertPartialView(string viewName)
     {
       return (new TaconiteResult()).InsertPartialView(viewName);
     }
 
-
+    /// 
     public static TaconiteMvc.Syntax.IInsertCommandBeforeOrAfterTargetSyntax InsertPartialView(object model)
     {
       return (new TaconiteResult()).InsertPartialView(model);
     }
 
-
+    /// 
     public static TaconiteMvc.Syntax.IInsertCommandBeforeOrAfterTargetSyntax InsertPartialView(string viewName, object model)
     {
       return (new TaconiteResult()).InsertPartialView(viewName, model);
@@ -203,31 +203,31 @@ namespace TaconiteMvc
       return (new TaconiteResult()).PrependPartialView(viewName, model);
     }
 
-
+    /// 
     public static TaconiteMvc.TaconiteResult Remove(string selector)
     {
       return (new TaconiteResult()).Remove(selector);
     }
 
-
+    /// 
     public static TaconiteMvc.Syntax.IRemoveAttributeCommandFromTargetSyntax RemoveAttribute(string attribute)
     {
       return (new TaconiteResult()).RemoveAttribute(attribute);
     }
 
-
+    /// 
     public static TaconiteMvc.Syntax.IRemoveAttributeCommandFromTargetSyntax RemoveAttributes(params string[] attributes)
     {
       return (new TaconiteResult()).RemoveAttributes(attributes);
     }
 
-
+    /// 
     public static TaconiteMvc.Syntax.IRemoveClassCommandFromTargetSyntax RemoveClass(string className)
     {
       return (new TaconiteResult()).RemoveClass(className);
     }
 
-
+    /// 
     public static TaconiteMvc.Syntax.IRemoveClassCommandFromTargetSyntax RemoveClasses(params string[] classNames)
     {
       return (new TaconiteResult()).RemoveClasses(classNames);
@@ -249,31 +249,31 @@ namespace TaconiteMvc
       return (new TaconiteResult()).ReplaceContentsOf(selector);
     }
 
-
+    /// 
     public static TaconiteMvc.Syntax.ISetAttributeCommandForTargetSyntax SetAttribute(string name, object value)
     {
       return (new TaconiteResult()).SetAttribute(name, value);
     }
 
-
+    /// 
     public static TaconiteMvc.Syntax.ISetAttributeCommandForTargetSyntax SetAttributes(object attributes)
     {
       return (new TaconiteResult()).SetAttributes(attributes);
     }
 
-
+    /// 
     public static TaconiteMvc.TaconiteResult Show(string selector)
     {
       return (new TaconiteResult()).Show(selector);
     }
 
-
+    /// 
     public static TaconiteMvc.TaconiteResult SlideDown(string selector)
     {
       return (new TaconiteResult()).SlideDown(selector);
     }
 
-
+    /// 
     public static TaconiteMvc.TaconiteResult SlideUp(string selector)
     {
       return (new TaconiteResult()).SlideUp(selector);
